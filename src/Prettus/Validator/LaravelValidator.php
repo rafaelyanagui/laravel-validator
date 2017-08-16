@@ -1,6 +1,6 @@
 <?php namespace Prettus\Validator;
 
-use Illuminate\Validation\Factory;
+use Illuminate\Contracts\Validation\Factory;
 
 /**
  * Class LaravelValidator
@@ -11,14 +11,14 @@ class LaravelValidator extends AbstractValidator {
     /**
      * Validator
      *
-     * @var \Illuminate\Validation\Factory
+     * @var \Illuminate\Contracts\Validation\Factory
      */
     protected $validator;
 
     /**
      * Construct
      *
-     * @param \Illuminate\Validation\Factory $validator
+     * @param \Illuminate\Contracts\Validation\Factory $validator
      */
     public function __construct(Factory $validator)
     {

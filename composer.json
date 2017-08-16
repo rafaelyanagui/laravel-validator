@@ -16,8 +16,8 @@
         "source":"https://github.com/andersao/laravel-validator"
     },
     "require": {
-        "illuminate/support": "~5.0|~5.1|~5.2",
-        "illuminate/validation": "~5.0|~5.1|~5.2"
+        "illuminate/support": "~5.4",
+        "illuminate/validation": "~5.4"
     },
     "autoload": {
         "psr-4": {
@@ -29,5 +29,5 @@
             "dev-develop": "1.2-dev"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
